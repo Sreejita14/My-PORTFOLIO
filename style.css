@@ -902,9 +902,7 @@ body{
   
   @media (max-width: 34em) {
    
-    body{
-      overflow-x: hidden;
-  }
+  
     .btn,
     .btn:link,
     .btn:visited {
