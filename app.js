@@ -4,8 +4,11 @@
 const btnNavEl = document.querySelector(".btn-mobile-nav");
 const headerEl = document.querySelector(".header");
 
+const navEl = document.querySelector(".main-nav");
+
 btnNavEl.addEventListener("click", function () {
   headerEl.classList.toggle("nav-open");
+  navEl.style.display = "flex";
 });
 
 ///////////////////////////////////////////////////////////
